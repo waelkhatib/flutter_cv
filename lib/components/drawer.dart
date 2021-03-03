@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:youtube_first/pages/about.dart';
+import 'package:youtube_first/pages/home.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
@@ -33,7 +35,7 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'الصفحة الرئيسية',
+                'Home',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
@@ -45,12 +47,13 @@ class MyDrawer extends StatelessWidget {
                 size: 25,
               ),
               onTap: () {
-                Navigator.of(context).pushNamed('homePage');
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => HomePage()));
               },
             ),
             ListTile(
               title: Text(
-                'الأقسام',
+                'About',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
@@ -62,19 +65,20 @@ class MyDrawer extends StatelessWidget {
                 size: 25,
               ),
               onTap: () {
-                Navigator.of(context).pushNamed('categories');
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => AboutPage()));
               },
             ),
             ListTile(
               title: Text(
-                'المنشورات',
+                'Resume',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
                 ),
               ),
               leading: Icon(
-                Icons.add_box_sharp,
+                Icons.file_present,
                 color: Colors.blue,
                 size: 25,
               ),
@@ -87,14 +91,14 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'حول التطبيق',
+                'Services',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
                 ),
               ),
               leading: Icon(
-                Icons.info,
+                Icons.miscellaneous_services_rounded,
                 color: Colors.blue,
                 size: 25,
               ),
@@ -102,7 +106,22 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'الإعدادات',
+                'Projects',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 18,
+                ),
+              ),
+              leading: Icon(
+                Icons.memory,
+                color: Colors.blue,
+                size: 25,
+              ),
+              onTap: () {},
+            ),
+            ListTile(
+              title: Text(
+                'My Blog',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
@@ -117,14 +136,14 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'تسجيل الدخول',
+                'Contacts',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 18,
                 ),
               ),
               leading: Icon(
-                Icons.exit_to_app,
+                Icons.contact_mail,
                 color: Colors.blue,
                 size: 25,
               ),

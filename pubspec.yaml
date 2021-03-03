@@ -50,6 +50,7 @@ flutter:
   assets:
     - imgs/wael.jpg
     - imgs/logo.jpg
+    - imgs/office.jpg
     - imgs/header_bg.png
   #   - images/a_dot_ham.jpeg
 

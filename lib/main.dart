@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_first/pages/login.dart';
+import 'package:youtube_first/pages/home.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: LoginPage(),
+    home: HomePage(),
     theme: ThemeData(fontFamily: 'Cairo'),
     debugShowCheckedModeBanner: false,
   ));

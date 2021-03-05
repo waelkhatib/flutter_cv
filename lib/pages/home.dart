@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                 "Senior back-end & front-end developer",
                 style: TextStyle(
                     fontSize: 20,
-                    color: Colors.orangeAccent,
+                    color: Colors.blueAccent,
                     fontWeight: FontWeight.bold),
               ),
               SizedBox(
@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                   Navigator.of(context).push(
                       MaterialPageRoute(builder: (context) => AboutPage()));
                 },
-                color: Colors.orangeAccent,
+                color: Colors.blueAccent,
                 child: Text(
                   "Let's begin",
                   style: TextStyle(color: Colors.white),

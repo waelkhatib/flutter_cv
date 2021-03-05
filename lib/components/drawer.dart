@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_first/pages/about.dart';
+import 'package:youtube_first/pages/blog.dart';
+import 'package:youtube_first/pages/contact.dart';
 import 'package:youtube_first/pages/home.dart';
+import 'package:youtube_first/pages/projects.dart';
+import 'package:youtube_first/pages/resume.dart';
+import 'package:youtube_first/pages/services.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
@@ -83,7 +88,8 @@ class MyDrawer extends StatelessWidget {
                 size: 25,
               ),
               onTap: () {
-                Navigator.of(context).pushNamed('post');
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ResumePage()));
               },
             ),
             Divider(
@@ -102,7 +108,10 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.blue,
                 size: 25,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ServicesPage()));
+              },
             ),
             ListTile(
               title: Text(
@@ -117,7 +126,10 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.blue,
                 size: 25,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ProjectsPage()));
+              },
             ),
             ListTile(
               title: Text(
@@ -132,7 +144,10 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.blue,
                 size: 25,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => BlogPage()));
+              },
             ),
             ListTile(
               title: Text(
@@ -148,7 +163,8 @@ class MyDrawer extends StatelessWidget {
                 size: 25,
               ),
               onTap: () {
-                Navigator.of(context).pushNamed('login');
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ContactPage()));
               },
             ),
           ],

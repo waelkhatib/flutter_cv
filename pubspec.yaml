@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   carousel_pro: ^1.0.0
   form_field_validator: ^1.0.1
+  percent_indicator: "^2.1.7+2"
 
 dev_dependencies:
   flutter_test:
@@ -49,9 +50,124 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - imgs/wael.jpg
-    - imgs/logo.jpg
+    - imgs/wael2.jpg
     - imgs/office.jpg
     - imgs/header_bg.png
+    - imgs/facebook.png
+    - imgs/twitter.png
+    - imgs/instagram.png
+    - imgs/image1.png
+    - imgs/image2.png
+    - imgs/image3.png
+    - imgs/image4.png
+    - imgs/image5.png
+    - imgs/image6.png
+    - imgs/image7.png
+    - imgs/image8.png
+    - imgs/image9.png
+    - imgs/image10.png
+    - imgs/image11.png
+    - imgs/image12.png
+    - imgs/image13.png
+    - imgs/image14.png
+    - imgs/image15.png
+    - imgs/image16.png
+    - imgs/image17.png
+    - imgs/image18.png
+    - imgs/image19.png
+    - imgs/image20.png
+    - imgs/image21.png
+    - imgs/image22.png
+    - imgs/image23.png
+    - imgs/image24.png
+    - imgs/image25.png
+    - imgs/image26.png
+    - imgs/image27.png
+    - imgs/image28.png
+    - imgs/image29.png
+    - imgs/image30.png
+    - imgs/image31.png
+    - imgs/image32.png
+    - imgs/image33.png
+    - imgs/image34.png
+    - imgs/image35.png
+    - imgs/image36.png
+    - imgs/image37.png
+    - imgs/image38.png
+    - imgs/image39.png
+    - imgs/image40.png
+    - imgs/image41.png
+    - imgs/image42.png
+    - imgs/image43.png
+    - imgs/image44.png
+    - imgs/image45.png
+    - imgs/image46.png
+    - imgs/image47.png
+    - imgs/image48.png
+    - imgs/image49.png
+    - imgs/image50.png
+    - imgs/image51.png
+    - imgs/image52.png
+    - imgs/image53.png
+    - imgs/image54.png
+    - imgs/image55.png
+    - imgs/image56.png
+    - imgs/image57.png
+    - imgs/image58.png
+    - imgs/image59.png
+    - imgs/image60.png
+    - imgs/image61.png
+    - imgs/image62.png
+    - imgs/image63.png
+    - imgs/image64.png
+    - imgs/image65.png
+    - imgs/image66.png
+    - imgs/image67.png
+    - imgs/image68.png
+    - imgs/image69.png
+    - imgs/image70.png
+    - imgs/image71.png
+    - imgs/image72.png
+    - imgs/image73.png
+    - imgs/image74.png
+    - imgs/image75.png
+    - imgs/image76.png
+    - imgs/image77.jpeg
+    - imgs/image78.jpeg
+    - imgs/image79.jpeg
+    - imgs/image80.jpeg
+    - imgs/image81.jpeg
+    - imgs/image82.jpeg
+    - imgs/image83.jpeg
+    - imgs/image84.jpeg
+    - imgs/image85.jpeg
+    - imgs/image86.jpg
+    - imgs/image87.jpg
+    - imgs/image88.jpg
+    - imgs/image89.jpg
+    - imgs/image90.jpg
+    - imgs/image91.jpg
+    - imgs/image92.jpg
+    - imgs/image93.jpg
+    - imgs/image94.jpg
+    - imgs/image95.jpg
+    - imgs/image96.jpg
+    - imgs/image97.jpg
+    - imgs/image98.jpg
+    - imgs/image99.jpg
+    - imgs/image100.jpg
+    - imgs/image101.jpg
+    - imgs/image102.jpg
+    - imgs/image103.jpg
+    - imgs/image104.jpg
+    - imgs/image105.jpg
+    - imgs/image106.jpg
+    - imgs/image107.jpg
+    - imgs/image108.jpg
+    - imgs/image109.jpg
+    - imgs/image110.jpg
+    - imgs/image111.jpg
+    - imgs/image112.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

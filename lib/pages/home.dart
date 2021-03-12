@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                 height: 16,
               ),
               Text(
-                "Develop mobile applications and design ASP.net web services and REST java APIs",
+                "Develop mobile applications and design ASP.NET web services and REST java APIs",
                 textAlign: TextAlign.justify,
                 style: TextStyle(fontSize: 14),
               ),

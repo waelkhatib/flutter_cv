@@ -56,6 +56,13 @@ flutter:
     - imgs/facebook.png
     - imgs/twitter.png
     - imgs/instagram.png
+    - imgs/android.png
+    - imgs/java.png
+    - imgs/mobile.png
+    - imgs/web.png
+    - imgs/backend.png
+    - imgs/hashtag.png
+    - imgs/cake.png
     - imgs/image1.png
     - imgs/image2.png
     - imgs/image3.png
